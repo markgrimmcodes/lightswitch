@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:200,300,regular,500,600,700,800);
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.button {
+  all: unset;
+  border: 2px solid rgb(78, 78, 78);
+  padding: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: scale(2.5);
+  font-family: "Dosis";
+  color: rgb(78, 78, 78);
+}
