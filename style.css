@@ -6,18 +6,37 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
   height: 100vh;
   margin: 0 auto;
+  transition: 0.5s ease-in-out;
 }
-
+.body-dark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: rgb(78, 78, 78);
+  transition: 0.5s ease-in-out;
+}
 .button {
   all: unset;
   border: 2px solid rgb(78, 78, 78);
   padding: 4px;
-
+  background-color: snow;
   transform: scale(2.5);
-
+  border-radius: 2px;
   font-family: "Dosis";
   color: rgb(78, 78, 78);
+}
+.button-dark {
+  all: unset;
+  border: 2px solid snow;
+  padding: 4px;
+  transform: scale(2.5);
+  border-radius: 2px;
+  font-family: "Dosis";
+  background-color: rgb(78, 78, 78);
+  color: snow;
+  box-shadow: 0 0 10px yellow;
 }
